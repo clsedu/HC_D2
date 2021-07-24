@@ -1,5 +1,5 @@
 # Desafio 2
-Este site é sobre a gestão de cadastro de clientes e tanbém de produtos
+Este site é sobre a gestão de cadastro de clientes e também de produtos
 ## Tela de Login
 Contém o acesso para as páginas de cadastro
 
