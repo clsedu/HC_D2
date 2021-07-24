@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/cadClientes.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Roboto: ital, wght @ 0,100; 0,300; 0,400; 0,500; 0,700; 0,900; 1,100; 1,300; 1,400; 1,500; 1,700; 1,900 & display = swap "rel =" folha de estilo ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa COR - Cadastro Clientes</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Casa COR</h1>
+    </div>
+    <div class="container">
+        
+        <div class="card">
+            <h1>Cadastro de Clientes </h1>
+            <div id="msgSuccess"></div>
+            <div id="msgError"></div>
+
+            <div class="label-float">
+                <label id="labelNome" for="nome">Nome&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                <input type=" text" maxlength="63" size="64" id="nome" placeholder="" required>
+            </div>
+
+            <div class="label-float">
+                <label  id="labelEnd" for="end">Endereço</label>
+                <input type=" text" maxlength="51" size="52" id="end" max-width= 20px placeholder="" required>
+ 
+            <label   id="labelNum" for="num">Nº</label>
+                <input  type=" number" onkeypress="return onlynumber();" id="num" maxlength="4" size="5" placeholder="" required>
+            </div>
+            <div class="label-float">
+                <label  id="labelCidade" for="cidade">Cidade&nbsp&nbsp&nbsp&nbsp</label>
+                <input type=" text" maxlength="30" size="32" id="cidade" placeholder="" required>
+
+                <label id="labelEstado" for="estado">&nbsp&nbspEstado</label>
+                <select name="estado" id="estado">
+                    <option value="">&nbsp</option>
+                    <option value="sp">SP</option>
+                    <option value="mg">MG</option>
+                    <option value="es">ES</option>
+                    <option value="rj">RJ</option>
+                    <option value="pr">PR</option>
+
+                </select>
+            
+                <label id="labelCep" for="cep">&nbspCep</label>
+                <input type=" number" onkeypress="return onlynumber();" maxlength="8" size="8" id="cep" maxlength="9" placeholder="" required >
+            </div>
+
+            <div class="label-float">
+                <label id="labelCel" for="cel">Celular&nbsp&nbsp&nbsp&nbsp</label>
+                <input type=" number" onkeypress="return onlynumber();" maxlength="14" size="13" id="cel"  placeholder="" required>
+
+                <label id="labelEmail" for="email">&nbspEmail:</label>
+                <input type="email" maxlength="30" size="39" id="email" placeholder="seu@email.com.br" required>
+            </div>
+
+            <div class="justify-center">
+                <button onclick="incluir()">Incluir</button>
+                <button onclick="home()">Home</button>
+                <button onclick="produtos()">Cadastro de Produtos</button>
+                <button onclick="excluir()">Excluir</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+       <h1> Desafio 2 Hiring Coders</h1>
+       <p>Desenvolvido por clseduOnWeb@2021</p>
+    </div>
+    <script src="./js/cadClientes.js"></script>
+</body>
+</html>

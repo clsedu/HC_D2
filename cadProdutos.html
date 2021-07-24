@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/cadProdutos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Roboto: ital, wght @ 0,100; 0,300; 0,400; 0,500; 0,700; 0,900; 1,100; 1,300; 1,400; 1,500; 1,700; 1,900 & display = swap "rel =" folha de estilo ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa COR - Cadastro Produtos</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Casa COR</h1>
+    </div>
+    <div class="container">
+        
+        <div class="card">
+            <h1>Cadastro de Produtos </h1>
+            <div id="msgSuccess"></div>
+            <div id="msgError"></div>
+            <hr>
+
+            <div class="imagens">
+                <img src="./img/lataCoral.jpeg" alt="">
+                <label class="label" for="coral"id="labelCoral1" >Lata tinta acrílica Coral 3,6 litros
+                    <p>Boa resistência</p>
+                    <p>Economia com qualidade</p>
+                    <p>Antimofo</p>
+                    <div class="qtde">
+                    <label class="labelQtde1" for="qtde1">Quantidade:
+                    <input type=" number" onkeypress="return onlynumber();" maxlength="3" size="2"  id="qtde1" nome="qtde1" placeholder="" required>
+                    </label>    
+                  
+                    
+                    </div>
+                </label>
+            </div>
+            <hr>
+
+            <div class="imagens">
+                <img src="./img/rolo_pintura.png" alt="">
+                <label class="label" for="rolo" id=labelRolo>Rolo pintura lã de carneiro Tigre                    
+                    <p>Alta performance</p>
+                    <p>Resistente</p>
+                    <p>Não solta pelo</p>
+                    <div class="qtde">
+                        <label class="labelQtde2" for="qtde2">Quantidade:
+                        <input type=" number" onkeypress="return onlynumber();" maxlength="3" size="2" id="qtde2" nome="qtde2" placeholder="" required>
+                        </label>    
+                       
+                    
+                    </div>
+                </label>
+               
+            </div>
+            <hr>
+
+            <div class="imagens">
+                <img src="./img/lixa_massa.jpg" alt="">
+                <label class="label" for="lixa">Lixa massa / paredes
+                    <p>Lixar paredes</p>
+                    <p>Remoção de imperfeições</p>
+                    <p>Lixamento de madeiras</p>
+                    <div class="qtde">
+                        <label class="labelQtde3" for="qtde3">Quantidade:
+                        <input type=" number" onkeypress="return onlynumber();" maxlength="3" size="2" id="qtde3" nome="qtde3" placeholder="" required>
+                        </label>    
+            
+                    </div>
+
+                </label>
+            </div>
+            <hr>
+
+            <div class="imagens">
+                <img src="./img/removedor.jpeg" alt="">
+                <label class="label" for="removedor">Removedor em Gel para tinta
+                    <p>Removedor de esmaltes</p>
+                    <p>Sem cheiro</p>
+                    <p>Textura e tintas automotivas</p>
+                    <div class="qtde">
+                        <label class="labelQtde4" for="qtde4">Quantidade:
+                        <input type=" number" onkeypress="return onlynumber();" maxlength="3" size="2" id="qtde4" nome="qtde4"  placeholder="" required>
+                        </label>    
+                       
+                    </div>
+                </label>
+            </div>
+            <hr>
+
+            <div class="imagens">
+                <img src="./img/lataSuvinil.jpeg" alt="">
+                <label class="label" for="suvinil">Lata tinta acrílica Coral 3,6 litros
+                    <p>Boa aderência</p>
+                    <p>Fácil aplicação</p>
+                    <p>Excelente cobertura</p>
+                    <div class="qtde">
+                        <label class="labelQtde5" for="qtde5">Quantidade:
+                        <input type=" number" onkeypress="return onlynumber();" maxlength="3" size="2" id="qtde5" nome="qtde5"  placeholder="" required>
+                        </label>    
+                        
+                    </div>
+                </label>
+            </div>
+            <hr>
+            
+          
+
+            
+
+            <div class="justify-center">
+                <button onclick="home()">Home</button>
+                <button onclick="incluir()">Cadastrar Produtos</button>
+                <button onclick="excluir()">Excluir Produtos</button>
+                <button onclick="clientes()">Cadastro de Clientes</button>
+                
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+       <h1> Desafio 2 Hiring Coders</h1>
+       <p>Desenvolvido por clseduOnWeb@2021</p>
+    </div>
+    <script src="./js/cadProdutos.js"></script>
+</body>
+</html>
