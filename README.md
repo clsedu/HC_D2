@@ -8,4 +8,4 @@ contém o form onde pode ser cadastrado os Clientes no sistema.
 
 ### Tela de Cadastro de Produtos
 
-contém o form onde pode ser cadastrado os Produtos no sistema.
+Contém o form onde pode ser cadastrado os Produtos no sistema.
